@@ -18,7 +18,38 @@ mpay.member.merchant.query
 
 ### [應答]
 ```json
-{"sign":"XXXXXXXXXXX","respCode":"000000","Data":{"mer_list":[{"mer_card_model_list":[{"mer_logo":"http://pay.macaupass.com/oms/logo.png","model_id":"0000000000001","mer_bg":"http://pay.macaupass.com/oms/bg.png","model_name":"紅色會員卡"}],"card_offline_bind":true,"mer_name":"澳門工會聯合總會","mer_app_id":"0000000001","card_online_apply":false},{"mer_card_model_list":[{"mer_logo":"http://pay.macaupass.com/oms/logo.png","model_id":"0000000000002","mer_bg":"http://pay.macaupass.com/oms/bg.png","model_name":"藍色會員卡"}],"card_offline_bind":true,"mer_name":"澳門婦女聯合總會","mer_app_id":"0000000002","card_online_apply":true}],"size":2},"respMsg":"success"}
+{
+
+    "sign":"XXXXXXXXXXX",
+    "respCode":"000000",
+    "Data": {
+        "mer_list":[ {
+            "mer_card_model_list":[ {
+                "mer_logo": "http://pay.macaupass.com/oms/logo.png", "model_id":"0000000000001", "mer_bg":"http://pay.macaupass.com/oms/bg.png", "model_name":"紅色會員卡"
+            }
+            ],
+            "card_offline_bind":true,
+            "mer_name":"澳門工會聯合總會",
+            "mer_app_id":"0000000001",
+            "card_online_apply":false
+        }
+        ,
+            {
+            "mer_card_model_list":[ {
+                "mer_logo": "http://pay.macaupass.com/oms/logo.png", "model_id":"0000000000002", "mer_bg":"http://pay.macaupass.com/oms/bg.png", "model_name":"藍色會員卡"
+            }
+            ],
+            "card_offline_bind":true,
+            "mer_name":"澳門婦女聯合總會",
+            "mer_app_id":"0000000002",
+            "card_online_apply":true
+        }
+        ],
+        "size":2
+    }
+    ,
+    "respMsg":"success"
+}
 ```
 
 
@@ -35,5 +66,3 @@ mpay.member.merchant.query
     * mer_logo:商戶LOGO（中間頁）
     * mer_bg:商戶背景圖
   * size:商戶列表總數
-
-  update.
