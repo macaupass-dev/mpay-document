@@ -35,3 +35,5 @@ mpay.member.merchant.query
     * mer_logo:商戶LOGO（中間頁）
     * mer_bg:商戶背景圖
   * size:商戶列表總數
+
+  update.
