@@ -2,10 +2,10 @@
 
 - 工聯會員卡
     - [簡介](/member/簡介.md)
-    - [获取綫上會員卡商戶列表](/member/mpay.member.merchant.query.md)
-    - [綁定線下會員卡](/member/mpay.member.card.bind.md)
-    - [獲取會員卡明細](/member/mpay.member.card.query.md)
-    - [補充會員卡信息](/member/mpay.member.card.input.md)
+    - [获取綫上會員卡商戶列表](/member/获取綫上會員卡商戶列表.md)
+    - [綁定線下會員卡](/member/綁定線下會員卡.md)
+    - [獲取會員卡明細](/member/獲取會員卡明細.md)
+    - [補充會員卡信息](/member/補充會員卡信息.md)
     - [綁會員卡中間頁接口](/member/綁會員卡中間頁接口.md)
     - [綁卡成功頁接口](/member/綁卡成功頁接口.md)
     - [會員卡列表](/member/會員卡列表.md)
