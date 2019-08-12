@@ -1,9 +1,9 @@
-## 获取綫上會員卡商戶列表
+## 獲取會員卡明細
 
 ### [api_name]
-mpay.member.merchant.query
+mpay.member.card.detail.md
 ### [biz_api_code]
-110120001
+110120004
 
 ### [請求]
 ```json
